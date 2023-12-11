@@ -1,38 +1,41 @@
-.App {
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin: 0;  
+  border:1px solid black;
+
+}
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container1 {
+  text-align: left;
+  line-height: 40px;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: rgb(202, 197, 197);  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* app.css */
+
+table {
+  border-spacing: 10px; /* Adjust the value to increase or decrease space between columns */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Additional styling for table cells if needed */
+table th, table td {
+  padding: 10px; /* Add padding to table cells for better spacing */
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* app.css */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* app.css */
+.reg-user-heading {
+  text-align: center;
+  margin-bottom: 10px;
 }
