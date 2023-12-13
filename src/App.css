@@ -21,20 +21,15 @@ h1 {
   background-color: rgb(202, 197, 197);  
 }
 
-/* app.css */
-
 table {
-  border-spacing: 10px; /* Adjust the value to increase or decrease space between columns */
-}
+  border-spacing: 10px;}
 
-/* Additional styling for table cells if needed */
+
 table th, table td {
-  padding: 10px; /* Add padding to table cells for better spacing */
+  padding: 10px;
 }
 
-/* app.css */
 
-/* app.css */
 .reg-user-heading {
   text-align: center;
   margin-bottom: 10px;
